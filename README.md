@@ -4,6 +4,7 @@ A Quil sketch designed to highlight the issue of getting pixel values at runtime
 
 | BROWSER         | LOCAL    | REMOTE |
 |-----------------|----------|--------|
+| Applet          | ok       |        |
 | OSX Chrome 60   | **FAIL** | ok     |
 | OSX Firefox 55  | ok       | ok     |
 | OSX Vivaldi 1.3 | **FAIL** | ok     |
