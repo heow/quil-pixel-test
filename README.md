@@ -15,7 +15,7 @@ A Quil sketch designed to highlight the issue of getting pixel values at runtime
 
 ## Local Test
 
-1. Unzip this file
+1. [Unzip this file](https://github.com/heow/quil-pixel-test/blob/master/local-test.zip?raw=true)
 2. Open the index.html with a browser
 3. report your findings to me
 
@@ -29,6 +29,8 @@ A Quil sketch designed to highlight the issue of getting pixel values at runtime
 
 ## Build it Yourself
 
+```
   $ ./cljs-autobuild.sh
-  
+```
+
 Open [index.html](index.html) in all the browsers.
