@@ -8,6 +8,7 @@ A Quil sketch designed to highlight the issue of getting pixel values at runtime
 | OSX Firefox 55  | ok       | ok     |
 | OSX Vivaldi 1.3 | **FAIL** | ok     |
 | Safari 9.1.3    | ok       | ok     |
+| Android 6.0.1   |          | ok     |
 
 ## Remote Test
 
