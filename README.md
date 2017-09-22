@@ -1,15 +1,16 @@
 # quil-pixel-test
 
-A Quil sketch designed to highlight the issue of getting pixel values at runtime.  It works great as an Applet but exhibits bizarre behavior based on browser and location (local or remote).
+A Quil sketch designed to highlight running Quil in a browser from the local filesystem.  In particular the issue of getting pixel values at runtime.  
 
-| BROWSER         | LOCAL    | REMOTE |
-|-----------------|----------|--------|
-| Applet          | ok       |        |
-| OSX Chrome 60   | **FAIL** | ok     |
-| OSX Firefox 55  | ok       | ok     |
-| OSX Vivaldi 1.3 | **FAIL** | ok     |
-| Safari 9.1.3    | ok       | ok     |
-| Android 6.0.1   |          | ok     |
+It works great as an Applet or remote HTML/JS but exhibits unspecified behavior based on browser.  To actually run Quil "locally", you need to use a self-hosted web server.
+
+| BROWSER         | LOCAL    |
+|-----------------|----------|
+| Applet          | ok       |
+| OSX Chrome 60   | **FAIL** |
+| OSX Firefox 55  | ok       |
+| OSX Vivaldi 1.3 | **FAIL** |
+| Safari 9.1.3    | ok       |
 
 ## Remote Test
 
